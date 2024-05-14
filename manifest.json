@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "EaseAccess",
+  "version": "1.0",
+  "description": "Checks the accessibility of a webpage using Axe-Core.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
